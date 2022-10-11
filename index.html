@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="stylesheet.css">
+    <link rel="stylesheet" href="https://use.typekit.net/xnu2zwu.css">
+    <link rel="stylesheet" href="https://use.typekit.net/dxn6kxs.css">
+    <title>Flexer</title>
+</head>
+<body>  
+
+  <header>
+    <nav>
+      <div class="about">About</div>
+
+      <img class="logo" src="Fexer.png" alt="Test Logo">
+
+      <div class="dropdown">
+        <button class="dropbtn">Menu</button>
+        <hr class="arrow">
+          <div class="dropdown-content">
+            <a href="#">Link 1</a>
+            <a href="#">Link 2</a>
+            <a href="#">Link 3</a>
+          </div>
+      </div>
+      <button class="lightMode" onclick="myFunction()">
+        <img class="blackSun" src="BlackSun" alt="Icon svart sol">
+        <img class="whiteSun" src="WhiteSun" alt="Icon vit sol">
+        <img class="blackMoon" src="blackMoon" alt="Icon svart måne">
+        <img class="whiteMoon" src="whiteMoon" alt="Icon vit måne">
+      </button>
+    </nav>
+  </header>
+        
+  <div class="start">
+    <hr class="boxleft"> 
+    <h1 class="rubrik">Choose your site <a href="https://www.google.com/" target="_blank" class="here">here</a></h1>
+      <!-- <hr class="boxright"> -->
+  </div> 
+
+  <div class="text1">
+    <p>“In '93 to '94, every browser had its own flavor of HTML. 
+      So it was very difficult to know what you could put in a Web page and reliably have most of your readership see it.”</p>
+    <h2> ― Tim Berners-Lee</h2>
+
+    <p> “A successful website does three things:
+        It attracts the right kinds of visitors.
+        Guides them to the main services or product  you offer.
+        Collect Contact details for future ongoing relation.” This is what we do.</p>
+    <h2> ― Mohamed Saad </h2>
+  </div>
+
+      <!-- 
+        <div class="text1">
+          <h2>Brödtext</h2>
+          <p>"Lorem ipsum dolor sit amet, consectetur adipscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+              Nt enim ad minim vemain, quis nostrud exerciattion ullamco laboris nisi ut aliquip ex ea commodo coonsequat.
+              Duis autue irure dolor in reprehendrit in volupate celit esse villum dolore eu fugiat nulla pariatur.</p>
+        </div> 
+      -->
+          
+  <img class="bild1" src="TestBild.png" alt="TestBild">
+
+  <hr class="solid2">
+      
+  <footer>
+    <a href="https://www.facebook.com/" target="_blank"> <img class="socialmedia" src="facebook.png" alt="Facebook Logo"></a>
+    <a href="https://www.instagram.com/" target="_blank"> <img class="socialmedia" src="instagram.png" alt="Instagram Logo"></a>
+    <a href="https://twitter.com/" target="_blank"> <img class="socialmedia" src="twitter.png" alt="Twitter Logo"></a>
+    <p>
+      <a href="https://google.com/">Info</a> - <a href="https://google.com/">Support</a> - <a href="https://google.com/">Marketing</a> 
+      <br>
+      <a href="https://google.com/">Terms of USC</a> - <a href="https://google.com/">Privacy Policy</a>
+    </p>
+  </footer>
+
+  <script>
+    function myFunction() {
+      var element = document.body;
+      element.classList.toggle("dark-mode");
+    }
+  </script>
+ 
+</body>
+</html>
